@@ -131,7 +131,7 @@ function tff() {
   done
 }
 
-alias tcp="tmux show-buffer | xclip -sel clip -i"
+# alias tcp="tmux show-buffer | xclip -sel clip -i"
 
 alias wp="kubectl get po --watch | grep $1"
 
